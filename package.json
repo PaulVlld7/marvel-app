@@ -1,8 +1,13 @@
 {
+  "name":"marvel-app",
+  "version":"1.0.0",
+  "main":"index.js",
   "scripts": {
     "start": "browser-sync start --config bs-config.js"
   },
+  "license":"ISC",
   "devDependencies": {
     "browser-sync": "^2.29.3"
   }
+  
 }
