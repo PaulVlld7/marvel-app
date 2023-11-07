@@ -7,9 +7,7 @@ const CharacterDetailPage = () => {
     // retrieve the character using the useLoaderData hook
     const character = useLoaderData();
 
-    useEffect(() => {
-        document.title = `${character.name} | Marvel App`;
-    }, [character]);
+    document.title = `${character.name} | Marvel App`;
 
     return (
         <>
