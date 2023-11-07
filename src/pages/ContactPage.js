@@ -6,7 +6,7 @@ const ContactPage = () => {
 
     return (
         <>
-            <h1>Contact Us</h1>
+            <h2>Contact Us</h2>
             <p>
                 Feel free to contact us at <a href="mailto:marvelApp@gmail.com">marvelApp@gmail.com</a>
             </p>
