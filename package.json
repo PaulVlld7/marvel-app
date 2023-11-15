@@ -6,7 +6,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test"
+    "test": "react-scripts test",
+    "test:coverage": "react-scripts test --coverage --watchAll=false"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.17.0",
@@ -38,5 +39,12 @@
   },
   "dependencies": {
     "react-router-dom": "^6.18.0"
-  }
+  },
+  "jest": {
+     "coveragePathIgnorePatterns" : [
+       "/src/index.js",
+       "/src/reportWebVitals.js"
+     ]
+ }
+ 
 }
