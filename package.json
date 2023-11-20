@@ -1,13 +1,21 @@
 {
   "name": "marvel-app",
+<<<<<<< HEAD
   "version": "1.1.0",
+=======
+  "version": "1.0.0",
+>>>>>>> 1f124a4514f449bdbb94bcc8f9e7ca35f6538712
   "description": "",
   "main": "index.html",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+<<<<<<< HEAD
     "test": "react-scripts test",
     "test:coverage": "react-scripts test --coverage --watchAll=false"
+=======
+    "test": "react-scripts test"
+>>>>>>> 1f124a4514f449bdbb94bcc8f9e7ca35f6538712
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.17.0",

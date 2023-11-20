@@ -2,16 +2,25 @@
     {
         "id": "1009175",
         "name": "Beast",
+<<<<<<< HEAD
         "description": "",
         "modified": "2014-01-13T14:48:32-0500",
         "thumbnail": {
             "path": "http://i.annihil.us/u/prod/marvel/i/mg/2/80/511a79a0451a3",
             "extension": "jpg"
         }
+=======
+        "thumbnail": {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/2/80/511a79a0451a3",
+            "extension": "jpg"
+        },
+        "description": ""
+>>>>>>> 1f124a4514f449bdbb94bcc8f9e7ca35f6538712
     },
     {
         "id": "1009220",
         "name": "Captain America",
+<<<<<<< HEAD
         "description": "Vowing to serve his country any way he could, young Steve Rogers took the super soldier serum to become America's one-man army. Fighting for the red, white and blue for over 60 years, Captain America is the living, breathing symbol of freedom and liberty.",
         "modified": "2020-04-04T19:01:59-0400",
         "thumbnail": {
@@ -104,5 +113,48 @@
             "path": "http://i.annihil.us/u/prod/marvel/i/mg/2/60/537bcaef0f6cf",
             "extension": "jpg"
         }
+=======
+        "thumbnail": {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/3/50/537ba56d31087",
+            "extension": "jpg"
+        },
+        "description": "Vowing to serve his country any way he could, young Steve Rogers took the super soldier serum to become America's one-man army. Fighting for the red, white and blue for over 60 years, Captain America is the living, breathing symbol of freedom and liberty."
+    },
+    {
+        "id": "1009268",
+        "name": "Deadpool"
+    },
+    {
+        "id": "1010743",
+        "name": "Groot"
+    },
+    {
+        "id": "1009351",
+        "name": "Hulk"
+    },
+    {
+        "id": "1009368",
+        "name": "Iron Man"
+    },
+    {
+        "id": "1009664",
+        "name": "Rocket Raccoon"
+    },
+    {
+        "id": "1009662",
+        "name": "Silver Surfer"
+    },
+    {
+        "id": "1009697",
+        "name": "Thanos"
+    },
+    {
+        "id": "1009663",
+        "name": "Thor"
+    },
+    {
+        "id": "1009718",
+        "name": "Wolverine"
+>>>>>>> 1f124a4514f449bdbb94bcc8f9e7ca35f6538712
     }
 ]
