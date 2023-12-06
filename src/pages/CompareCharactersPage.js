@@ -21,6 +21,7 @@ const CompareCharactersPage = () => {
     const [option2, setOption2] = React.useState(options[1]);
 
     const centerStyle = {
+        textAlign: 'center',
         display:'flex',
         flex_direction: 'row',
         width: 500,
@@ -60,12 +61,13 @@ const CompareCharactersPage = () => {
                 </select>
             </p>
 
-            <p style={centerStyle}>
-                {characters[option1.value].name} vs {characters[option2.value].name}
-            </p>
+
             <p style={centerStyle}>
             <CompareCharacters character={characters[option1.value]} />
             <CompareCharacters character={characters[option2.value]} />
+            </p>
+            <p style={centerStyle}>
+                <span style={{color: '#8884d8', fontWeight: 'bold',textAlign: 'center'}}>{characters[option1.value].name}</span> &nbsp;vs&nbsp; <span style={{color: '#82ca9d', fontWeight: 'bold',textAlign: 'center'}}>{characters[option2.value].name}</span>
             </p>
 
             <RadarChart cx={300} cy={250} outerRadius={150} width={600} height={500} data={data}>
